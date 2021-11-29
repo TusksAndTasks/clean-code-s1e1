@@ -41,8 +41,8 @@
 }
 
 .add-item-form__input,
-.task-item__label,
-.task-item__text-input {
+.task-list__label,
+.task-list__text-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -52,8 +52,7 @@
   display: flex;
 }
 
-.incomplete-tasks-wrapper,
-.completed-tasks-wrapper {
+.task-list {
   margin: 0;
   padding: 0px;
 }
@@ -70,8 +69,8 @@ button {
 }
 
 .add-item-form__add-button,
-.task-item__edit-button,
-.task-item__delete-button {
+.task-list__edit-button,
+.task-list__delete-button {
   background: none;
   border: 0px;
   color: #888;
@@ -92,8 +91,8 @@ button {
 }
 
 .add-item-form__add-button:hover,
-.task-item__edit-button:hover,
-.task-item__delete-button:hover {
+.task-list__edit-button:hover,
+.task-list__delete-button:hover {
   color: #3a3a3a;
 }
 
@@ -110,7 +109,7 @@ button {
 }
 
 .add-item-form__input,
-.task-item__text-input {
+.task-list__text-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -124,7 +123,7 @@ button {
 }
 
 .add-item-form__input:focus,
-.task-item__text-input:focus {
+.task-list__text-input:focus {
   color: #333;
 }
 
@@ -139,7 +138,7 @@ button {
 }
 
 /* Task list */
-.task-item {
+.task-list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -148,12 +147,12 @@ button {
   align-items: center;
 }
 
-.task-item__checkbox {
+.task-list__checkbox {
   margin: 0 10px;
   vertical-align: middle;
 }
 
-.task-item__label {
+.task-list__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -161,38 +160,38 @@ button {
   vertical-align: middle;
 }
 
-.task-item__text-input {
+.task-list__text-input {
   width: 226px;
   vertical-align: middle;
 }
 
-.task-item__delete-img {
+.task-list__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
   vertical-align: middle;
 }
 
-.task-item__delete-img:hover {
+.task-list__delete-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.task-item__label_completed {
+.task-list__label_completed {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.task-item__text-input {
+.task-list__text-input {
   display: none;
 }
 
-.task-item__text-input_edit-mode {
+.task-list__text-input_edit-mode {
   display: inline-block;
   width: 224px;
 }
 
-.task-item__label_edit-mode {
+.task-list__label_edit-mode {
   display: none;
 }
