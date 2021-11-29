@@ -45,7 +45,7 @@
 .task-item__text-input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-item-form {
@@ -182,12 +182,12 @@ input,button {
 
 /* Edit Task */
 .task-item__text-input {
-  display: none
+  display: none;
 }
 
 .task-item__text-input_edit-mode {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task-item__label_edit-mode {
