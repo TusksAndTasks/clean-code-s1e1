@@ -27,16 +27,16 @@ body {
   text-align: center;
 }
 }
-.main-page {
+.main {
   display: block;
   width: 500px;
 }
 
-.main-page_centered {
+.main_centered {
   margin: 0 auto 0;
 }
 
-.add-item-wrapper__input,
+.add-item-form__input,
 .task-item__label,
 .task-item__text-input {
   width: 56%;
@@ -44,7 +44,7 @@ body {
   flex-grow: 1
 }
 
-.add-item-wrapper {
+.add-item-form {
   display: flex;
 }
 
@@ -62,7 +62,7 @@ input,button{
   outline:none;
 }
 
-.add-item-wrapper__add-button,
+.add-item-form__add-button,
 .task-item__edit-button,
 .task-item__delete-button {
   background: none;
@@ -74,7 +74,7 @@ input,button{
   cursor: pointer;
 }
 
-.add-item-wrapper__add-button{
+.add-item-form__add-button {
   background: none;
   border: 0px;
   color: #888;
@@ -84,7 +84,7 @@ input,button{
   cursor: pointer;
 }
 
-.add-item-wrapper__add-button:hover,
+.add-item-form__add-button:hover,
 .task-item__edit-button:hover,
 .task-item__delete-button:hover {
   color: #3a3a3a;
@@ -101,7 +101,7 @@ input,button{
   text-transform: uppercase;
 }
 
-.add-item-wrapper__input,
+.add-item-form__input,
 .task-item__text-input {
   margin: 0;
   font-size: 18px;
@@ -115,7 +115,7 @@ input,button{
   color: #888;
 }
 
-.add-item-wrapper__input:focus,
+.add-item-form__input:focus,
 .task-item__text-input:focus {
   color: #333;
 }
@@ -125,7 +125,7 @@ input,button{
   display: block;
   margin: 0 0 20px;
 }
-.add-item-wrapper__input_full {
+.add-item-form__input_full {
   width: 318px;
 }
 
