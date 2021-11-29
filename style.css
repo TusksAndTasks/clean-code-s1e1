@@ -62,7 +62,7 @@ input,button{
   outline:none;
 }
 
-.add-item-wrapper__button,
+.add-item-wrapper__add-button,
 .task-item__edit-button,
 .task-item__delete-button {
   background: none;
@@ -74,7 +74,7 @@ input,button{
   cursor: pointer;
 }
 
-.add-item-wrapper__button{
+.add-item-wrapper__add-button{
   background: none;
   border: 0px;
   color: #888;
@@ -84,7 +84,7 @@ input,button{
   cursor: pointer;
 }
 
-.add-item-wrapper__button:hover,
+.add-item-wrapper__add-button:hover,
 .task-item__edit-button:hover,
 .task-item__delete-button:hover {
   color: #3a3a3a;
